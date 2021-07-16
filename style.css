@@ -94,17 +94,17 @@ img {
   transition: all 0.4s;
 }
 
-.sedans.btn:hover {
+.sedans-btn:hover {
   background-color: var(--bright-orange);
   color: var(--transparent-white);
 }
 
-.suvs.btn:hover {
+.suvs-btn:hover {
   background-color: var(--dark-cyan);
   color: var(--transparent-white);
 }
 
-.luxury.btn:hover {
+.luxury-btn:hover {
   background-color: var(--very-dark-cyan);
   color: var(--transparent-white);
 }
@@ -125,6 +125,7 @@ img {
   font-size: 11px;
   text-align: center;
   text-decoration: none;
+  margin-top: 2rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
