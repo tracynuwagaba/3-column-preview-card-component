@@ -132,10 +132,13 @@ img {
     align-items: center;
     height: 100vh;
   }
+  .container {
+    padding: 0;
+  }
   .cards {
     display: flex;
     flex-direction: row;
-    width: 75vw;
+    width: 90vw;
   }
   /* .cards__item {
     padding: 1.5rem;
