@@ -93,7 +93,7 @@ img {
 }
 
 .btn:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .text-color-orange {
@@ -122,4 +122,36 @@ img {
 
 .attribution a:hover {
   color: var(--very-dark-cyan);
+}
+
+/* large screens */
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+  }
+  .cards__item {
+    padding: 1.5rem;
+  }
+  img {
+    width: 44px;
+  }
+  .cards__item h2 {
+    font-size: 1.8rem;
+  }
+  .cards__item p {
+    font-size: 0.67rem;
+    line-height: 1.2rem;
+  }
+  .btn {
+    width: 100px;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.6rem;
+  }
 }
