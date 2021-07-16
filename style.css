@@ -94,7 +94,11 @@ img {
   transition: all 0.4s;
 }
 
-.sedans-btn:hover {
+.btn:hover {
+  transform: scale(0.5);
+}
+
+/* .sedans-btn:hover {
   background-color: var(--bright-orange);
   color: var(--transparent-white);
 }
@@ -107,7 +111,7 @@ img {
 .luxury-btn:hover {
   background-color: var(--very-dark-cyan);
   color: var(--transparent-white);
-}
+} */
 
 .text-color-orange {
   color: var(--bright-orange);
