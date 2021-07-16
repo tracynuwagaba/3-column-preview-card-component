@@ -137,9 +137,9 @@ img {
     flex-direction: row;
     width: 75vw;
   }
-  .cards__item {
+  /* .cards__item {
     padding: 1.5rem;
-  }
+  } */
   img {
     width: 44px;
   }
