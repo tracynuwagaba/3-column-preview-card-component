@@ -95,7 +95,7 @@ img {
 }
 
 .btn:hover {
-  transform: scale(1);
+  transform: scale(2);
 }
 
 /* .sedans-btn:hover {
