@@ -118,6 +118,7 @@ img {
 .attribution a {
   color: var(--dark-cyan);
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .attribution a:hover {
