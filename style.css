@@ -140,19 +140,19 @@ img {
     flex-direction: row;
     width: 75vw;
   }
-  .cards__item {
+  /* .cards__item {
     padding: 2.5rem;
-  }
+  } */
   /* img {
     width: 44px;
   } */
   /* .cards__item h2 {
     font-size: 1.8rem;
   } */
-  /* .cards__item p {
-    font-size: 1rem;
-    line-height: 1.2rem;
-  } */
+  .cards__item p {
+    font-size: 0.8rem;
+    /* line-height: 1.2rem; */
+  }
   /* .btn {
     width: 100px;
     padding: 0.4rem 0.9rem;
