@@ -17,7 +17,7 @@
 
 ### Links
 
-- Solution URL: [My solution](https://your-solution-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/mobile-first-using-css-flexbox-KzhegsIOc)
 - Live Site URL: [Hosted on Netlify](https://fm-3column-preview-card-component.netlify.app/)
 
 ## My process
