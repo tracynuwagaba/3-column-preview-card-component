@@ -140,9 +140,9 @@ img {
     flex-direction: row;
     width: 75vw;
   }
-  /* .cards__item {
-    padding: 1.5rem;
-  } */
+  .cards__item {
+    padding: 2.5rem;
+  }
   /* img {
     width: 44px;
   } */
