@@ -138,7 +138,7 @@ img {
   .cards {
     display: flex;
     flex-direction: row;
-    width: 90vw;
+    width: 80vw;
   }
   /* .cards__item {
     padding: 1.5rem;
