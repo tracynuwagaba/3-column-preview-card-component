@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* primary colors */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* neutral colors */
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+
+  /* font */
+  --body-font: 0.9375rem;
+  --font-lexend-dexa: 'Lexend Deca', sans-serif;
+  --font-big-shoulders-display: 'Big Shoulders Display', cursive;
+}
+
+body {
+  font-size: var(--body-font);
+  background-color: var(--very-light-gray);
+  color: var(--transparent-white);
+  font-family: var(--font-lexend-dexa);
+  /* position: relative; */
+}
+
+.container {
+  padding: 5.5rem 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 327px;
+  border-radius: 10px;
+  /* position: relative; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.sedans {
+  background-color: var(--bright-orange);
+}
+
+.suvs {
+  background-color: var(--dark-cyan);
+}
+
+.luxury {
+  background-color: var(--very-dark-cyan);
+}
+
+img {
+  width: 64px;
+}
+
+.cards__item h2 {
+  font-family: var(--font-big-shoulders-display);
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: var(--very-light-gray);
+  padding: 2rem 0 1.5rem 0;
+}
+
+.cards__item p {
+  line-height: 1.8rem;
+  margin-bottom: 2.25rem;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 0.75rem 1.8rem;
+  border-radius: 24px;
+  background-color: var(--transparent-white);
+  width: 150px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.sedans.btn:hover {
+  background-color: var(--bright-orange);
+  color: var(--transparent-white);
+}
+
+.suvs.btn:hover {
+  background-color: var(--dark-cyan);
+  color: var(--transparent-white);
+}
+
+.luxury.btn:hover {
+  background-color: var(--very-dark-cyan);
+  color: var(--transparent-white);
+}
+
+.text-color-orange {
+  color: var(--bright-orange);
+}
+
+.text-color-cyan {
+  color: var(--dark-cyan);
+}
+
+.text-color-dark-cyan {
+  color: var(--very-dark-cyan);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  text-decoration: none;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
