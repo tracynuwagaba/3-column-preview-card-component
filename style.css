@@ -27,7 +27,6 @@ body {
   background-color: var(--very-light-gray);
   color: var(--transparent-white);
   font-family: var(--font-lexend-dexa);
-  /* position: relative; */
 }
 
 .container {
@@ -40,10 +39,9 @@ body {
   overflow: hidden;
   width: 327px;
   border-radius: 10px;
-  margin: auto;
-  /* position: relative; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
+  /* margin: auto; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cards__item {
@@ -120,4 +118,8 @@ img {
 .attribution a {
   color: var(--dark-cyan);
   text-decoration: none;
+}
+
+.attribution a:hover {
+  color: var(--very-dark-cyan);
 }
