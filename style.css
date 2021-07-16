@@ -153,9 +153,9 @@ img {
     font-size: 1.11rem;
     /* line-height: 1.2rem; */
   }
-  /* .btn {
-    width: 100px;
-    padding: 0.4rem 0.9rem;
-    font-size: 0.6rem;
-  } */
+  .btn {
+    width: 180px;
+    /* padding: 0.4rem 0.9rem; */
+    /* font-size: 0.6rem; */
+  }
 }
